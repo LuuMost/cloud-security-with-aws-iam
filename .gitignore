@@ -1,0 +1,26 @@
+# AWS credentials / sign-in secrets — NEVER commit these
+.aws/
+.env
+.env.*
+!.env.example
+*access*key*
+*secret*key*
+*sign-in*.csv
+*credentials*.csv
+*.pem
+*.key
+
+# Terraform (if you later add .tf files)
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
